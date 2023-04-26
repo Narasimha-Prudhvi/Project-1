@@ -1,0 +1,320 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: poppins, Sans-serif !important;
+}
+.pointer {
+  cursor: pointer !important;
+}
+.header_container {
+  padding: 0px 230px !important;
+}
+.header_main {
+  background: rgba(10, 10, 10, 0.99) !important;
+}
+.Nav__bar__items {
+  display: inline-block;
+  font-size: 14px;
+  padding-right: 22px;
+  color: #ffffff !important;
+  padding-right: 22px !important;
+}
+.logo_main {
+  max-width: 123px;
+  height: 70px;
+}
+.Nav__bar__nav {
+  margin-left: auto;
+}
+
+/* hero part starts */
+.hero_mainn {
+  background-image: url(./assets/hero-banner.webp) !important;
+  background-position: 0 -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.hero_text {
+  padding-top: 234px;
+}
+.hero_small_text {
+  font-size: 50px !important;
+}
+.everyThing_text {
+  font-family: dm sans, Sans-serif !important;
+  color: #eefaff;
+  font-size: 110px;
+  font-weight: 400;
+  text-shadow: 0 0 100px rgba(0, 0, 0, 0.68);
+  line-height: 60px !important;
+}
+.hero__span {
+  text-align: left;
+  color: #fff;
+  font-family: poppins, Sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.97);
+}
+/* hero part ends */
+
+/* featured part  */
+.featured__main {
+  background: #edededde;
+  padding: 50px 230px !important;
+}
+.featured__Text {
+  color: #0201016e;
+  font-family: poppins, Sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  text-align: center;
+}
+.featured_logo_images {
+  width: 79%;
+  opacity: 0.41;
+  height: 28px;
+}
+.featured__logos_part {
+  gap: 44px;
+}
+.econ__times {
+  width: 222px !important;
+}
+.money__cont__logo {
+  opacity: 0.58 !important;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg) !important;
+}
+.mint__logo {
+  width: 50% !important;
+  height: 28px !important;
+  opacity: 0.65 !important;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg) !important;
+}
+/* featured part  */
+/* ankur about */
+.ankur__name {
+  text-align: center;
+  color: #18191a;
+  font-size: 56px;
+  font-weight: 500;
+  padding-top: 100px !important;
+}
+/* .ankur__about {
+  padding: 100px 40px 128px;
+} */
+.ankur__description {
+  color: #222223;
+  /* font-family: poppins,Sans-serif; */
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.logo__in__about {
+  height: 50px;
+  width: 200px;
+  text-align: center;
+}
+.font__iconss:before {
+  font-size: 50px !important;
+}
+.activityy__icons {
+  text-align: center;
+}
+.activity__namee {
+  color: #3a3a3a;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+.his__descriptionnn {
+  color: #5d5d5d;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px !important;
+}
+.his__activities {
+  gap: 50px;
+}
+/* ankur about */
+
+/* find warikooo */
+.find__warikoo {
+  background: #0c4bf8f7 !important;
+  padding-bottom: 50px !important;
+}
+.find__text {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.ankoor__Community__text {
+  text-align: center;
+  color: #f8f8f8;
+  font-weight: 400;
+  display: block !important;
+}
+.social__iconss::before {
+  color: white !important;
+  font-size: 50px !important;
+  text-align: center;
+  padding-left: 20px;
+}
+.social__line {
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+}
+.social__icons_main {
+  gap: 30px;
+}
+/* find warikooo */
+
+/* courses part */
+.courses__main {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+.courses_line {
+  color: #353738;
+  font-weight: 600;
+  text-align: center;
+  font-size: 50px;
+}
+.courses__span {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  color: #282828;
+  font-weight: 400;
+}
+.videos__card {
+  padding: 10px;
+  background-color: #e7eff9;
+  border-radius: 10px;
+}
+.videos__carddd {
+  height: 132px;
+  width: 248px;
+}
+.videos_main_text {
+  color: #484a4b;
+  font-size: 23px;
+}
+.video_time_span {
+  display: block !important;
+}
+.videos__carddd:hover {
+  transform: scale(1.1);
+}
+.course_videos_part {
+  gap: 30px;
+}
+/* courses part */
+
+/* do epic shit */
+.do__epic__shit__main {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+.epic__imgg {
+  height: 506px;
+  width: 550px;
+}
+.do__epic__line {
+  color: #323049;
+  font-size: 50px;
+  font-weight: 600;
+}
+.epic__spann {
+  text-align: left;
+  color: #242424;
+  font-size: 18px;
+  font-weight: 300;
+}
+.black__logo {
+  height: 94px;
+  width: 166px;
+}
+.ankooorrr {
+  color: #242424;
+  font-family: montserrat, Sans-serif !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+.get__copy__btnn {
+  font-family: montserrat, Sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  fill: #fff;
+  color: #fff;
+  background-color: #ffcb00;
+  border: 0;
+  padding: 25px 66px;
+  border-radius: 6px;
+}
+.get__copy__btnn:hover {
+  color: #ffcb00;
+  background-color: #000;
+}
+.get__copy__btnn:focus {
+  outline: 0 !important;
+}
+.right__anglee {
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+/* do epic shit */
+
+/* footer */
+.footer__main {
+  background-color: #222;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+.footer__logo__imgg {
+  height: 128px;
+  width: 226px;
+}
+.footer__Lists {
+  font-size: 14px;
+  color: #ffffff;
+}
+.footer__Lists:hover {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+.footer__Lists:before {
+  content: "";
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 14px;
+  left: 0;
+  position: absolute;
+  border-radius: 50%;
+  top: 9px;
+  border-color: #2ea3f2;
+}
+.designed_lineee {
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+/* footer */
